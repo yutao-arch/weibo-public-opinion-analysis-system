@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/code_crawler/README.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code_crawler/analysis.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code_crawler/excelSave.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code_crawler/media/geometry2.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/code_crawler/normal_topic_spyder.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code_crawler/seg.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/code_crawler/visualization.py" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

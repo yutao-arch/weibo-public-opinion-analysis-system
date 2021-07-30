@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: image
+Version: 1.5.33
+Summary: Django application that provides cropping, resizing, thumbnailing, overlays and masking for images and videos with the ability to set the center of attention,
+Home-page: https://github.com/francescortiz/image
+Author: Francesc Ortiz
+Author-email: francescortiz@gmail.com
+License: BSD
+Description: Django application that provides cropping, resizing, thumbnailing, overlays and masking for images and videos with the ability to set the center of attention,
+Platform: UNKNOWN

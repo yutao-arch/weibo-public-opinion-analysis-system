@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94c155a1-d7f7-495a-80b3-c7dbf7367622" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/create_weibo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1817">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#13#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/cookie.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="1391" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="e#13#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/mytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/multipattern_matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/chart_level/中考话题用户等级柱状图.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/seg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="43" column="12" selection-start-line="43" selection-end-line="43" selection-end-column="12" />
+              <folding>
+                <element signature="e#25#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code_crawler/normal_topic_spyder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code_crawler/excelSave.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Read_Excel</find>
+      <find>save_seg</find>
+      <find>tables</find>
+      <find>file_name</find>
+      <find>opts</find>
+      <find>当前微博数以达到100条</find>
+      <find>当前微博数以</find>
+      <find>maxWeibo</find>
+      <find>hahahahahahah</find>
+      <find>lineEdit_2</find>
+      <find>print</find>
+      <find>保佑</find>
+      <find>content</find>
+      <find>.sheets()[0]</find>
+      <find>temp_filename</find>
+      <find>sheet_name_xls</find>
+      <find>data</find>
+      <find>table</find>
+      <find>driver</find>
+      <find>weibo_num</find>
+      <find>i</find>
+      <find>book_name_xls</find>
+      <find>spider</find>
+      <find>Ui_MainWindow</find>
+      <find>MainWindow</find>
+      <find>lineEdit</find>
+      <find>Keys</find>
+      <find>browser</find>
+      <find>shishi_element</find>
+      <find>高考</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>制作人：余涛</replace>
+      <replace>饼状图</replace>
+      <replace>water_army</replace>
+      <replace>driver</replace>
+      <replace>王思聪</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WeiboUserScrapy.py" />
+        <option value="$PROJECT_DIR$/Cookie.txt" />
+        <option value="$PROJECT_DIR$/WeiboTopicScrapy.py" />
+        <option value="$PROJECT_DIR$/WeiboCommentScrapy.py" />
+        <option value="$PROJECT_DIR$/WeiboSuperCommentScrapy.py" />
+        <option value="$PROJECT_DIR$/code_crawler/WeiboCommentScrapy.py" />
+        <option value="$PROJECT_DIR$/code_crawler/comment-weibo-spyder.py" />
+        <option value="$PROJECT_DIR$/code_crawler/normal-topic-spyder.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/code_crawler/test.py" />
+        <option value="$PROJECT_DIR$/code_crawler/ui/the_ui.py" />
+        <option value="$PROJECT_DIR$/code_crawler/excelSave.py" />
+        <option value="$PROJECT_DIR$/code_crawler/seg.py" />
+        <option value="$PROJECT_DIR$/code_crawler/multipattern_matching.py" />
+        <option value="$PROJECT_DIR$/code_crawler/qtdesigner_rc.py" />
+        <option value="$PROJECT_DIR$/code_crawler/qtdesigner.qrc" />
+        <option value="$PROJECT_DIR$/code_crawler/media/qtdesigner.qrc" />
+        <option value="$PROJECT_DIR$/code_crawler/media/apprcc.qrc" />
+        <option value="$PROJECT_DIR$/code_crawler/the_ui.py" />
+        <option value="$PROJECT_DIR$/code_crawler/apprcc.qrc" />
+        <option value="$PROJECT_DIR$/code_crawler/resource.qrc" />
+        <option value="$PROJECT_DIR$/code_crawler/create_weibo.py" />
+        <option value="$PROJECT_DIR$/code_crawler/visualization.py" />
+        <option value="$PROJECT_DIR$/code_crawler/run_ui.py" />
+        <option value="$PROJECT_DIR$/code_crawler/analysis.py" />
+        <option value="$PROJECT_DIR$/code_crawler/normal_topic_spyder.py" />
+        <option value="$PROJECT_DIR$/code_crawler/cookie.txt" />
+        <option value="$PROJECT_DIR$/code_crawler/mytest.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="1462" />
+    <option name="height" value="1730" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="chart_emotion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="chart_keyword" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="chart_level" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="seg_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="information_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="information_security" type="462c0819:PsiDirectoryNode" />
+              <item name="code_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="weibodata" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code_crawler" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10636\PycharmProjects\information_security\code_crawler\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10636\PycharmProjects\information_security\code_crawler" />
+      <recent name="C:\Users\10636\PycharmProjects\information_security\code_crawler\media" />
+      <recent name="C:\Users\10636\PycharmProjects\information_security\code_crawler\qrc" />
+      <recent name="C:\Users\10636\PycharmProjects\information_security\code_crawler\ui" />
+      <recent name="C:\Users\10636\PycharmProjects\information_security" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in mytest.py">
+    <configuration name="高考话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/高考话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题情感分析饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_emotion/高考话题情感分析饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题用户等级柱状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_level/高考话题用户等级柱状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/高考话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="王思聪话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/王思聪话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="中考话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/中考话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题微博词汇统计柱状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/高考话题微博词汇统计柱状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/高考话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="中考话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/中考话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题用户等级饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_level/高考话题用户等级饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题用户等级柱状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_level/高考话题用户等级柱状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="端午话题微博词汇统计饼状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_keyword/端午话题微博词汇统计饼状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高考话题用户等级柱状图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/information_security/chart_level/高考话题用户等级柱状图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="run_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="information_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_crawler/run_ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for mytest.Cases" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="information_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mytest.Cases&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in mytest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="information_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/code_crawler/mytest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.高考话题微博词汇统计饼状图.html" />
+      <item itemvalue="Python.run_ui" />
+      <item itemvalue="Python tests.Unittests for mytest.Cases" />
+      <item itemvalue="Python tests.Unittests in mytest.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in mytest.py" />
+        <item itemvalue="Python tests.Unittests for mytest.Cases" />
+        <item itemvalue="Python.run_ui" />
+        <item itemvalue="JavaScript Debug.高考话题微博词汇统计饼状图.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c155a1-d7f7-495a-80b3-c7dbf7367622" name="Default Changelist" comment="" />
+      <created>1623227291348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623227291348</updated>
+      <workItem from="1623227298682" duration="2428000" />
+      <workItem from="1623231012394" duration="1265000" />
+      <workItem from="1623314287045" duration="10264000" />
+      <workItem from="1623326375122" duration="873000" />
+      <workItem from="1623327318033" duration="36000" />
+      <workItem from="1623327585559" duration="201000" />
+      <workItem from="1623328101038" duration="12000" />
+      <workItem from="1623491498096" duration="24329000" />
+      <workItem from="1623655670511" duration="8643000" />
+      <workItem from="1623664430594" duration="16000" />
+      <workItem from="1623665012894" duration="14999000" />
+      <workItem from="1623727288091" duration="31466000" />
+      <workItem from="1623834038695" duration="5044000" />
+      <workItem from="1623839286389" duration="12283000" />
+      <workItem from="1623917043260" duration="30000" />
+      <workItem from="1624006355008" duration="452000" />
+      <workItem from="1624011968626" duration="13313000" />
+      <workItem from="1624428416443" duration="9531000" />
+      <workItem from="1624459246750" duration="1567000" />
+      <workItem from="1624494561378" duration="934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_mytest_Cases - 2021.06.23 at 17h 57m 55s.xml">
+      <configuration name="Unittests for mytest.Cases" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_mytest_py - 2021.06.24 at 08h 27m 23s.xml">
+      <configuration name="Unittests in mytest.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137686000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1453" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1896922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27688172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39919356" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3293011" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25403225" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3293011" />
+      <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.3293011" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" />
+      <window_info anchor="bottom" id="Log Analyzer" order="15" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.114074074" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/information_security$seg.coverage" NAME="seg Coverage Results" MODIFIED="1623662923515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$comment_weibo_spyder.coverage" NAME="comment-weibo-spyder Coverage Results" MODIFIED="1623569940777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$the_ui.coverage" NAME="the_ui Coverage Results" MODIFIED="1623664102197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler/ui" />
+    <SUITE FILE_PATH="coverage/information_security$run_ui.coverage" NAME="run_ui Coverage Results" MODIFIED="1624438618468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$normal_topic_spyder.coverage" NAME="normal_topic_spyder Coverage Results" MODIFIED="1623725492163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$Unittests_for_mytest_Cases.coverage" NAME="Unittests for mytest.Cases Coverage Results" MODIFIED="1624442256143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$test.coverage" NAME="test Coverage Results" MODIFIED="1623314297708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information_security$WeiboCommentScrapy.coverage" NAME="WeiboCommentScrapy Coverage Results" MODIFIED="1623320561419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information_security$WeiboTopicScrapy.coverage" NAME="WeiboTopicScrapy Coverage Results" MODIFIED="1623323434557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information_security$multipattern_matching.coverage" NAME="multipattern_matching Coverage Results" MODIFIED="1623820884790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$WeiboUserScrapy.coverage" NAME="WeiboUserScrapy Coverage Results" MODIFIED="1623319033835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information_security$create_weibo.coverage" NAME="create_weibo Coverage Results" MODIFIED="1623769972698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$Unittests_in_mytest_py.coverage" NAME="Unittests in mytest.py Coverage Results" MODIFIED="1624494352137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1623587268578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$visualization.coverage" NAME="visualization Coverage Results" MODIFIED="1623664154147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+    <SUITE FILE_PATH="coverage/information_security$WeiboSuperCommentScrapy.coverage" NAME="WeiboSuperCommentScrapy Coverage Results" MODIFIED="1623323153333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/information_security$the_ui__1_.coverage" NAME="the_ui (1) Coverage Results" MODIFIED="1623819293390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_crawler" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart/情感分析图.html" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart/情感分析柱状图" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart/情感分析柱状图.html" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_emotion/情感分析饼图.html" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_emotion/情感分析柱状图.html" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/seg_result/高考.txt" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/super-topic-spyder.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/comment-weibo-spyder.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/CompoundDoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/tests/io/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/ui/1_1.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/ui/1_1.ui" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_emotion/高考话题情感分析柱状图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/test.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/ui/the_ui.ui" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/ui/the_ui.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15916">
+          <caret line="694" column="8" selection-start-line="694" selection-start-column="8" selection-end-line="694" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_keyword/中考话题微博词汇统计柱状图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_emotion/中考话题情感分析柱状图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1533" column="8" selection-start-line="1533" selection-start-column="8" selection-end-line="1533" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5543">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_level/端午话题用户等级柱状图.html" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_level/端午话题用户等级饼状图.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="244" column="8" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/qrc/qtdesigner.qrc" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/qtdesigner_rc.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/media/qtdesigner.qrc" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/media/apprcc.py" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/media/apprcc.qrc" />
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_emotion/中考话题情感分析饼状图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/media/main_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/resource.qrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/the_ui.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#914#920#0" expanded="true" />
+            <element signature="e#922#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_ui.spec" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="481" column="8" selection-start-line="481" selection-start-column="8" selection-end-line="481" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/run_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <element signature="e#13#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/resource_rc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/the_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/create_weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#13#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/cookie.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="1391" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#13#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/multipattern_matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/chart_level/中考话题用户等级柱状图.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="43" column="12" selection-start-line="43" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/excelSave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/mytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_crawler/normal_topic_spyder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
