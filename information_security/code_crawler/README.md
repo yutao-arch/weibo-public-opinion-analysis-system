@@ -5,7 +5,7 @@
 
 运行ui文件即可
 
-注意：需要在爬虫主文件normal-topic-spyder的主函数中输入账号、密码和想要爬取的超话名称即可开始爬取，需要提前安装所需的python库和chromedriver驱动
+注意：需要在爬虫主文件normal_topic_spyder.py的主函数中输入账号、密码和想要爬取的超话名称即可开始爬取，需要提前安装所需的python库和chromedriver驱动
 
 爬取结束后数据会自动保存在当前目录下的excel文件中，每行为一个微博数据。
 
