@@ -24,7 +24,7 @@
 调用了百度大脑的api接口，可以自行注册获取key，平台不限调用次数，详细接口见[百度大脑](https://ai.baidu.com/tech/nlp_apply/sentiment_classify) 
 
 ### 水军攻击
-是用selenium模拟用户操作发送水军微博进行话题淹没
+使用selenium模拟用户操作发送水军微博进行话题淹没
 
 ### 其他
 欢迎大家参与和完善：如有其他问题，欢迎提交issue
