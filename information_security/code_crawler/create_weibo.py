@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import json
 
 
-# ÅĞ¶ÏÒ³ÃæÊÇ·ñ¼ÓÔØ³öÀ´
+# åˆ¤æ–­é¡µé¢æ˜¯å¦åŠ è½½å‡ºæ¥
 def isPresent(driver):
     temp = 1
     try:
@@ -16,23 +16,23 @@ def isPresent(driver):
     return temp
 
 
-# Î¢²©Ë®¾üÒıµ¼¹¥»÷
+# å¾®åšæ°´å†›å¼•å¯¼æ”»å‡»
 def water_army(keyword, username, password, driver, i):
-    # cookieµÇÂ¼
+    # cookieç™»å½•
     driver.set_window_size(452, 790)
-    # ¼ÓÔØÇı¶¯£¬Ê¹ÓÃä¯ÀÀÆ÷´ò¿ªÖ¸¶¨ÍøÖ·
+    # åŠ è½½é©±åŠ¨ï¼Œä½¿ç”¨æµè§ˆå™¨æ‰“å¼€æŒ‡å®šç½‘å€
     driver.get("https://m.weibo.cn/")
-    # ÅĞ¶ÏÊÇ·ñÒÑÓĞcookieÎÄ¼ş
+    # åˆ¤æ–­æ˜¯å¦å·²æœ‰cookieæ–‡ä»¶
     f1 = open('cookie.txt')
     cookie = f1.read()
-    if cookie == "":  # Èç¹ûcookieÎ´´æÈëcookie.txt£¬µÚÒ»´ÎµÇÂ¼
-        # Çå¿Õä¯ÀÀÆ÷Ô­ÓĞcookie
+    if cookie == "":  # å¦‚æœcookieæœªå­˜å…¥cookie.txtï¼Œç¬¬ä¸€æ¬¡ç™»å½•
+        # æ¸…ç©ºæµè§ˆå™¨åŸæœ‰cookie
         driver.delete_all_cookies()
-        # Ê¹ÓÃÓÃ»§ÃûÃÜÂë¼°ÑéÖ¤ÂëµÇÂ¼
-        # ¼ÓÔØÇı¶¯£¬Ê¹ÓÃä¯ÀÀÆ÷´ò¿ªÖ¸¶¨ÍøÖ·
+        # ä½¿ç”¨ç”¨æˆ·åå¯†ç åŠéªŒè¯ç ç™»å½•
+        # åŠ è½½é©±åŠ¨ï¼Œä½¿ç”¨æµè§ˆå™¨æ‰“å¼€æŒ‡å®šç½‘å€
         driver.set_window_size(452, 790)
         driver.get("https://passport.weibo.cn/signin/login")
-        print("¿ªÊ¼×Ô¶¯µÇÂ½£¬Èô³öÏÖÑéÖ¤ÂëÊÖ¶¯ÑéÖ¤")
+        print("å¼€å§‹è‡ªåŠ¨ç™»é™†ï¼Œè‹¥å‡ºç°éªŒè¯ç æ‰‹åŠ¨éªŒè¯")
         time.sleep(3)
 
         elem = driver.find_element_by_xpath("//*[@id='loginName']")
@@ -41,10 +41,10 @@ def water_army(keyword, username, password, driver, i):
         elem.send_keys(password)
         elem = driver.find_element_by_xpath("//*[@id='loginAction']")
         elem.send_keys(Keys.ENTER)
-        print("ÔİÍ£20Ãë£¬ÓÃÓÚÑéÖ¤ÂëÑéÖ¤")
+        print("æš‚åœ20ç§’ï¼Œç”¨äºéªŒè¯ç éªŒè¯")
         time.sleep(20)
 
-        # µÚÒ»´ÎµÇÂ¼°ÑcookieĞ´ÈëÎÄ¼ş
+        # ç¬¬ä¸€æ¬¡ç™»å½•æŠŠcookieå†™å…¥æ–‡ä»¶
         cookies = driver.get_cookies()
         f1 = open('cookie.txt', 'w')
         f1.write(json.dumps(cookies))
@@ -54,48 +54,48 @@ def water_army(keyword, username, password, driver, i):
         cookie = json.loads(cookie)
         for c in cookie:
             driver.add_cookie(c)
-        # Ë¢ĞÂÒ³Ãæ
+        # åˆ·æ–°é¡µé¢
         driver.refresh()
 
-    while 1:  # Ñ­»·Ìõ¼şÎª1±Ø¶¨³ÉÁ¢
+    while 1:  # å¾ªç¯æ¡ä»¶ä¸º1å¿…å®šæˆç«‹
         result = isPresent(driver)
-        # ½â¾öÊäÈëÑéÖ¤ÂëÎŞ·¨Ìø×ªµÄÎÊÌâ
+        # è§£å†³è¾“å…¥éªŒè¯ç æ— æ³•è·³è½¬çš„é—®é¢˜
         driver.get('https://m.weibo.cn/')
-        print('ÅĞ¶ÏÒ³Ãæ1³É¹¦ 0Ê§°Ü  ½á¹ûÊÇ=%d' % result)
+        print('åˆ¤æ–­é¡µé¢1æˆåŠŸ 0å¤±è´¥  ç»“æœæ˜¯=%d' % result)
         if result == 1:
             elems = driver.find_elements_by_css_selector(
                 'div.line-around.layout-box.mod-pagination > a:nth-child(2) > div > select > option')
-            # return elems #Èç¹û·â×°º¯Êı£¬·µ»ØÒ³Ãæ
+            # return elems #å¦‚æœå°è£…å‡½æ•°ï¼Œè¿”å›é¡µé¢
             break
         else:
-            print('Ò³Ãæ»¹Ã»¼ÓÔØ³öÀ´ÄØ')
+            print('é¡µé¢è¿˜æ²¡åŠ è½½å‡ºæ¥å‘¢')
             time.sleep(20)
 
     time.sleep(2)
-    # Ê×ÏÈ¶¨Î»µ½ÓÒÉÏ½ÇµÄ±àĞ´Î¢²©µÄdiv±êÇ©
+    # é¦–å…ˆå®šä½åˆ°å³ä¸Šè§’çš„ç¼–å†™å¾®åšçš„divæ ‡ç­¾
     driver.find_element_by_xpath("//div[@class='lite-iconf lite-iconf-releas']").click()
     time.sleep(2)
-    weibo_context = keyword + " Ë®¾üÒıµ¼¹¥»÷ " + str(i)
+    weibo_context = keyword + " æ°´å†›å¼•å¯¼æ”»å‡» " + str(i)
     string_begin = 0
     send_weibo(driver, weibo_context, string_begin)
     print(weibo_context)
 
 
-# Ä£ÄâÈË½øĞĞ·¢Î¢²©²Ù×÷
+# æ¨¡æ‹Ÿäººè¿›è¡Œå‘å¾®åšæ“ä½œ
 def send_weibo(driver, weibo_string, string_begin):
-    # ÓÉÓÚ·¢³öµÄÎ¢²©ÖĞº¬ÓĞ¡°#¡±£¬¶øÊäÈë¡°#¡±½çÃæ»á×Ô¶¯½øÈëÑ¡»°Ìâ½çÃæ£¬È»ºó±¨Òì³££¬
-    # ËùÒÔÔÚ³öÏÖÒì³£ºó·µ»ØÉÏÒ»¸ö·¢Î¢²©µÄ½çÃæ
+    # ç”±äºå‘å‡ºçš„å¾®åšä¸­å«æœ‰â€œ#â€ï¼Œè€Œè¾“å…¥â€œ#â€ç•Œé¢ä¼šè‡ªåŠ¨è¿›å…¥é€‰è¯é¢˜ç•Œé¢ï¼Œç„¶åæŠ¥å¼‚å¸¸ï¼Œ
+    # æ‰€ä»¥åœ¨å‡ºç°å¼‚å¸¸åè¿”å›ä¸Šä¸€ä¸ªå‘å¾®åšçš„ç•Œé¢
     try:
-        # È»ºó¶¨Î»µ½ÊäÈëÎ¢²©ÄÚÈİµÄspan±êÇ©ÏÂµÄtextarea±êÇ©
+        # ç„¶åå®šä½åˆ°è¾“å…¥å¾®åšå†…å®¹çš„spanæ ‡ç­¾ä¸‹çš„textareaæ ‡ç­¾
         driver.find_element_by_xpath("//span[@class='m-wz-def']/textarea").send_keys(
-            weibo_string[string_begin:])  # ÊäÈëstring_beginÖ®ºó×Ö·û´®ÖĞµÄËùÓĞÄÚÈİ
+            weibo_string[string_begin:])  # è¾“å…¥string_beginä¹‹åå­—ç¬¦ä¸²ä¸­çš„æ‰€æœ‰å†…å®¹
         time.sleep(2)
-        #  ×îºó¶¨Î»µ½ÓÒÉÏ½Ç·¢ËÍÎ¢²©µÄa±êÇ©
+        #  æœ€åå®šä½åˆ°å³ä¸Šè§’å‘é€å¾®åšçš„aæ ‡ç­¾
         driver.find_element_by_xpath(
             "//div[@class='m-box m-flex-grow1 m-box-model m-fd-row m-aln-center m-justify-end m-flex-base0']/a").click()
         time.sleep(2)
-        print("·¢ËÍÒ»ÌõÎ¢²©³É¹¦")
-    except:  # ·µ»ØÉÏÒ»¸ö½çÃæ£¬²¢½«Î¢²©ÄÚÈİµÄ×Ö·û´®¼õÈ¥¸Õ²ÅµÄ¡°#¡±×Ö·û
+        print("å‘é€ä¸€æ¡å¾®åšæˆåŠŸ")
+    except:  # è¿”å›ä¸Šä¸€ä¸ªç•Œé¢ï¼Œå¹¶å°†å¾®åšå†…å®¹çš„å­—ç¬¦ä¸²å‡å»åˆšæ‰çš„â€œ#â€å­—ç¬¦
         string_begin = string_begin + 1
         driver.back()
         time.sleep(2)
@@ -103,14 +103,14 @@ def send_weibo(driver, weibo_string, string_begin):
 
 
 if __name__ == '__main__':
-    username = "15586430583"  # ÄãµÄÎ¢²©µÇÂ¼Ãû
-    password = "yutao19981119"  # ÄãµÄÃÜÂë
-    driver = webdriver.Chrome()  # ÄãµÄchromedriverµÄµØÖ·
-    temp_filename = "ÖĞ¿¼"
-    keywords = ["#" + temp_filename + "#"]  # ´Ë´¦¿ÉÒÔÉèÖÃ¶à¸ö»°Ìâ£¬#±ØĞëÒª¼ÓÉÏ
-    weibo_num = 100  # Ë®¾üÎ¢²©µÄÊıÁ¿
-    # ÔØÈëµÚÒ»¸ö±í¸ñ
+    username = ""  # ä½ çš„å¾®åšç™»å½•å
+    password = ""  # ä½ çš„å¯†ç 
+    driver = webdriver.Chrome()  # ä½ çš„chromedriverçš„åœ°å€
+    temp_filename = "ä¸­è€ƒ"
+    keywords = ["#" + temp_filename + "#"]  # æ­¤å¤„å¯ä»¥è®¾ç½®å¤šä¸ªè¯é¢˜ï¼Œ#å¿…é¡»è¦åŠ ä¸Š
+    weibo_num = 100  # æ°´å†›å¾®åšçš„æ•°é‡
+    # è½½å…¥ç¬¬ä¸€ä¸ªè¡¨æ ¼
     for keyword in keywords:
         for i in range(weibo_num):
             water_army(keyword, username, password, driver, i)
-    print("ËùÓĞË®¾üÎ¢²©·¢ËÍÍê±Ï")
+    print("æ‰€æœ‰æ°´å†›å¾®åšå‘é€å®Œæ¯•")
