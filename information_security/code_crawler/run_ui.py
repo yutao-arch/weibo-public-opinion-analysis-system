@@ -31,25 +31,25 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.pushButton_6.clicked.connect(self.pattern_matching)
 
     def crawler(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton':
             if len(self.lineEdit.text()) != 0:
-                username = "15586430583"  # ÄãµÄÎ¢²©µÇÂ¼Ãû
-                password = "yutao19981119"  # ÄãµÄÃÜÂë
-                driver = webdriver.Chrome()  # ÄãµÄchromedriverµÄµØÖ·
+                username = ""  # ä½ çš„å¾®åšç™»å½•å
+                password = ""  # ä½ çš„å¯†ç 
+                driver = webdriver.Chrome()  # ä½ çš„chromedriverçš„åœ°å€
                 temp_filename = self.lineEdit.text()
-                book_name_xls = "weibodata/" + temp_filename + ".xls"  # ÌîĞ´ÄãÏë´æ·ÅexcelµÄÂ·¾¶£¬Ã»ÓĞÎÄ¼ş»á×Ô¶¯´´½¨
-                sheet_name_xls = 'Î¢²©Êı¾İ'  # sheet±íÃû
-                maxWeibo = 20  # ÉèÖÃ×î¶à¶àÉÙÌõÎ¢²©
-                keywords = ["#" + temp_filename + "#"]  # ´Ë´¦¿ÉÒÔÉèÖÃ¶à¸ö»°Ìâ£¬#±ØĞëÒª¼ÓÉÏ
+                book_name_xls = "weibodata/" + temp_filename + ".xls"  # å¡«å†™ä½ æƒ³å­˜æ”¾excelçš„è·¯å¾„ï¼Œæ²¡æœ‰æ–‡ä»¶ä¼šè‡ªåŠ¨åˆ›å»º
+                sheet_name_xls = 'å¾®åšæ•°æ®'  # sheetè¡¨å
+                maxWeibo = 20  # è®¾ç½®æœ€å¤šå¤šå°‘æ¡å¾®åš
+                keywords = ["#" + temp_filename + "#"]  # æ­¤å¤„å¯ä»¥è®¾ç½®å¤šä¸ªè¯é¢˜ï¼Œ#å¿…é¡»è¦åŠ ä¸Š
                 for keyword in keywords:
                     spider(username, password, driver, book_name_xls, sheet_name_xls, keyword, maxWeibo)
-                QMessageBox.information(self, "½á¹û", "ÅÀ³æ½á¹ûÒÑ´æÈë£º" + "weibo_data/" + temp_filename + ".xlsÖĞ£¡",
+                QMessageBox.information(self, "ç»“æœ", "çˆ¬è™«ç»“æœå·²å­˜å…¥ï¼š" + "weibo_data/" + temp_filename + ".xlsä¸­ï¼",
                                         QMessageBox.Yes)
-                print("ÅÀ³æÍê³É£¬ÒÑ±£´æ")
+                print("çˆ¬è™«å®Œæˆï¼Œå·²ä¿å­˜")
 
     def emotion_analysis(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton_2':
             if len(self.lineEdit.text()) != 0:
                 temp_filename = self.lineEdit.text()
@@ -57,44 +57,44 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 data = pd.read_excel(file_path)
                 moods = []
                 count = 1
-                for i in data['Î¢²©ÄÚÈİ']:
+                for i in data['å¾®åšå†…å®¹']:
                     moods.append(isPostive(i))
                     count += 1
-                    print("Ä¿Ç°·ÖÎöµ½£º" + str(count))
-                data['Çé¸ĞÇãÏò'] = pd.Series(moods)
-                # ´Ë´¦Îª¸²¸Ç±£´æ
+                    print("ç›®å‰åˆ†æåˆ°ï¼š" + str(count))
+                data['æƒ…æ„Ÿå€¾å‘'] = pd.Series(moods)
+                # æ­¤å¤„ä¸ºè¦†ç›–ä¿å­˜
                 data.to_excel(file_path)
-                QMessageBox.information(self, "½á¹û", "Çé¸Ğ·ÖÎö½á¹ûÒÑ´æÈë£º" + "weibo_data/" + temp_filename + ".xlsÖĞ£¡",
+                QMessageBox.information(self, "ç»“æœ", "æƒ…æ„Ÿåˆ†æç»“æœå·²å­˜å…¥ï¼š" + "weibo_data/" + temp_filename + ".xlsä¸­ï¼",
                                         QMessageBox.Yes)
-                print("Çé¸Ğ·ÖÎöÍê³É£¬ÒÑ±£´æ")
+                print("æƒ…æ„Ÿåˆ†æå®Œæˆï¼Œå·²ä¿å­˜")
 
     def keyword_seg(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton_3':
             if len(self.lineEdit.text()) != 0:
                 temp_filename = self.lineEdit.text()
-                # ĞèÒª½øĞĞ·Ö´ÊµÄÎÄ¼ş
+                # éœ€è¦è¿›è¡Œåˆ†è¯çš„æ–‡ä»¶
                 cnt = Counter()
                 data = pd.read_excel('weibodata/' + temp_filename + '.xls')
                 init_seg(temp_filename, cnt, data)
-                # Í³¼Æ´Ê»ã³öÏÖ´ÎÊı
-                word_num = 20  # ´ÎÊı×î¶àµÄ´Ê»ãÁ¿
-                book_name_xls = "seg_result/" + temp_filename + "»°ÌâÎ¢²©´Ê»ãÍ³¼Æ.xls"  # ÌîĞ´ÄãÏë´æ·ÅexcelµÄÂ·¾¶£¬Ã»ÓĞÎÄ¼ş»á×Ô¶¯´´½¨
-                sheet_name_xls = 'Î¢²©Êı¾İ'  # sheet±íÃû
+                # ç»Ÿè®¡è¯æ±‡å‡ºç°æ¬¡æ•°
+                word_num = 20  # æ¬¡æ•°æœ€å¤šçš„è¯æ±‡é‡
+                book_name_xls = "seg_result/" + temp_filename + "è¯é¢˜å¾®åšè¯æ±‡ç»Ÿè®¡.xls"  # å¡«å†™ä½ æƒ³å­˜æ”¾excelçš„è·¯å¾„ï¼Œæ²¡æœ‰æ–‡ä»¶ä¼šè‡ªåŠ¨åˆ›å»º
+                sheet_name_xls = 'å¾®åšæ•°æ®'  # sheetè¡¨å
                 save_seg(book_name_xls, sheet_name_xls, cnt, word_num)
-                QMessageBox.information(self, "½á¹û", "Í³¼Æ½á¹ûÒÑ´æÈë£º" + "seg_result/" + temp_filename + "»°ÌâÎ¢²©´Ê»ãÍ³¼Æ.xlsÖĞ£¡",
+                QMessageBox.information(self, "ç»“æœ", "ç»Ÿè®¡ç»“æœå·²å­˜å…¥ï¼š" + "seg_result/" + temp_filename + "è¯é¢˜å¾®åšè¯æ±‡ç»Ÿè®¡.xlsä¸­ï¼",
                                         QMessageBox.Yes)
-                print("´Ê»ãÍ³¼ÆÍê³É£¬ÒÑ±£´æ")
+                print("è¯æ±‡ç»Ÿè®¡å®Œæˆï¼Œå·²ä¿å­˜")
 
     def visual(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton_4':
             if len(self.lineEdit.text()) != 0:
                 temp_filename = self.lineEdit.text()
                 filename = self.lineEdit.text()
-                # µ¼ÈëExcel ÎÄ¼ş
+                # å¯¼å…¥Excel æ–‡ä»¶
                 data = xlrd.open_workbook("weibodata/" + temp_filename + ".xls")
-                # ÔØÈëµÚÒ»¸ö±í¸ñ
+                # è½½å…¥ç¬¬ä¸€ä¸ªè¡¨æ ¼
                 table = data.sheets()[0]
                 tables = []
                 Read_Excel(table, tables)
@@ -103,68 +103,68 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 level_bar(tables, temp_filename)
                 level_pie(tables, temp_filename)
 
-                # ´Ê»ãÍ³¼Æ¿ÉÊÓ»¯
-                temp_filename = temp_filename + "»°ÌâÎ¢²©´Ê»ãÍ³¼Æ"  # ÎÄ¼şÃû
-                # µ¼ÈëExcel ÎÄ¼ş
+                # è¯æ±‡ç»Ÿè®¡å¯è§†åŒ–
+                temp_filename = temp_filename + "è¯é¢˜å¾®åšè¯æ±‡ç»Ÿè®¡"  # æ–‡ä»¶å
+                # å¯¼å…¥Excel æ–‡ä»¶
                 data = xlrd.open_workbook("seg_result/" + temp_filename + ".xls")
-                # ÔØÈëµÚÒ»¸ö±í¸ñ
+                # è½½å…¥ç¬¬ä¸€ä¸ªè¡¨æ ¼
                 table = data.sheets()[0]
                 tables = []
                 Read_Excel_keyword(table, tables)
                 keyword_bar(tables, temp_filename)
                 keyword_pie(tables, temp_filename)
-                QMessageBox.information(self, "½á¹û",
-                                        "Í¼ĞÎ½á¹ûÒÑ´æÈë£º" + "chart_emotion, chart_keybord, chart_level/" + filename + "Ïà¹ØµÄhtmlÎÄ¼şÖĞ£¡",
+                QMessageBox.information(self, "ç»“æœ",
+                                        "å›¾å½¢ç»“æœå·²å­˜å…¥ï¼š" + "chart_emotion, chart_keybord, chart_level/" + filename + "ç›¸å…³çš„htmlæ–‡ä»¶ä¸­ï¼",
                                         QMessageBox.Yes)
-                print("Í¼ĞÎ»æÖÆÍê³É£¬ÒÑ±£´æ")
+                print("å›¾å½¢ç»˜åˆ¶å®Œæˆï¼Œå·²ä¿å­˜")
 
     def water_army_attack(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton_5':
             if len(self.lineEdit.text()) != 0 and len(self.lineEdit_2.text()) != 0:
-                username = "15586430583"  # ÄãµÄÎ¢²©µÇÂ¼Ãû
-                password = "yutao19981119"  # ÄãµÄÃÜÂë
-                driver = webdriver.Chrome()  # ÄãµÄchromedriverµÄµØÖ·
+                username = "15586430583"  # ä½ çš„å¾®åšç™»å½•å
+                password = "yutao19981119"  # ä½ çš„å¯†ç 
+                driver = webdriver.Chrome()  # ä½ çš„chromedriverçš„åœ°å€
                 temp_filename = self.lineEdit.text()
-                keywords = ["#" + temp_filename + "#"]  # ´Ë´¦¿ÉÒÔÉèÖÃ¶à¸ö»°Ìâ£¬#±ØĞëÒª¼ÓÉÏ
-                weibo_num = int(self.lineEdit_2.text())  # Ë®¾üÎ¢²©µÄÊıÁ¿
-                # ÔØÈëµÚÒ»¸ö±í¸ñ
+                keywords = ["#" + temp_filename + "#"]  # æ­¤å¤„å¯ä»¥è®¾ç½®å¤šä¸ªè¯é¢˜ï¼Œ#å¿…é¡»è¦åŠ ä¸Š
+                weibo_num = int(self.lineEdit_2.text())  # æ°´å†›å¾®åšçš„æ•°é‡
+                # è½½å…¥ç¬¬ä¸€ä¸ªè¡¨æ ¼
                 for keyword in keywords:
                     for i in range(weibo_num):
                         water_army(keyword, username, password, driver, i)
-                QMessageBox.information(self, "½á¹û", "ËùÓĞË®¾ü¹¥»÷Î¢²©ÒÑ·¢ËÍÍê±Ï", QMessageBox.Yes)
-                print("ËùÓĞË®¾ü¹¥»÷Î¢²©ÒÑ·¢ËÍÍê±Ï")
+                QMessageBox.information(self, "ç»“æœ", "æ‰€æœ‰æ°´å†›æ”»å‡»å¾®åšå·²å‘é€å®Œæ¯•", QMessageBox.Yes)
+                print("æ‰€æœ‰æ°´å†›æ”»å‡»å¾®åšå·²å‘é€å®Œæ¯•")
 
 
     def pattern_matching(self):
-        button = ui.sender().objectName()  # ÅĞ¶ÏÊÇÄÄ¸ö±íÏÂµÄ²éÑ¯
+        button = ui.sender().objectName()  # åˆ¤æ–­æ˜¯å“ªä¸ªè¡¨ä¸‹çš„æŸ¥è¯¢
         if button == 'pushButton_6':
             if len(self.lineEdit_3.text()) != 0 and len(self.lineEdit.text()) != 0:
                 temp_filename = self.lineEdit.text()
                 the_input = self.lineEdit_3.text()
                 keywords = []
-                if the_input.find("£¬"):  # ¶àÄ£Ê½Æ¥ÅäĞèÒª¸ô¿ª
-                    keywords = the_input.split("£¬")
+                if the_input.find("ï¼Œ"):  # å¤šæ¨¡å¼åŒ¹é…éœ€è¦éš”å¼€
+                    keywords = the_input.split("ï¼Œ")
                 else:
                     keywords = keywords.append(the_input)
                 data = pd.read_excel('weibodata/' + temp_filename + '.xls')
                 all_weibo = ""
                 all_weibo = all_weibo_to_string(all_weibo, data)
                 model = Trie(keywords)
-                # defaultdict(<class 'list'>, {'²»Öª': [(0, 1)], '²»¾õ': [(3, 4)], 'ÍüÁË°®': [(13, 15)]})
+                # defaultdict(<class 'list'>, {'ä¸çŸ¥': [(0, 1)], 'ä¸è§‰': [(3, 4)], 'å¿˜äº†çˆ±': [(13, 15)]})
                 list = model.search(all_weibo)
                 the_result = ""
                 for i in list:
-                    the_result = the_result + "¹Ø¼ü´Ê:" +  i + "\t³öÏÖ´ÎÊı:" + str(len(list[i])) + "\n"
+                    the_result = the_result + "å…³é”®è¯:" +  i + "\tå‡ºç°æ¬¡æ•°:" + str(len(list[i])) + "\n"
                 print(the_result)
                 self.textBrowser.setText(the_result)
-                QMessageBox.information(self, "½á¹û", "¶àÄ£Ê½Æ¥Åä³É¹¦,½á¹ûÒÑÕ¹Ê¾³öÀ´", QMessageBox.Yes)
-                print("¶àÄ£Ê½Æ¥Åä³É¹¦")
+                QMessageBox.information(self, "ç»“æœ", "å¤šæ¨¡å¼åŒ¹é…æˆåŠŸ,ç»“æœå·²å±•ç¤ºå‡ºæ¥", QMessageBox.Yes)
+                print("å¤šæ¨¡å¼åŒ¹é…æˆåŠŸ")
 
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     ui = MainWindow()
-    ui.setWindowTitle('Î¢²©ÓßÇé·ÖÎö')
+    ui.setWindowTitle('å¾®åšèˆ†æƒ…åˆ†æ')
     ui.show()
     sys.exit(app.exec_())
